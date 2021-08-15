@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Leader Board</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- font awesome -->
+    <!-- css from brootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/61a6132c09.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+  
+     <!-- header part start -->
+    <header class="container-fluid py-lg-3 mb-lg-2" style="background-color: #264653">
+        <!-- navvar  start-->
+    <nav id="home" class="navbar navbar-expand-lg " >
+      <div class="  ">         
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-sliders-h toggler"></i></span>
+        </button>
+        <div class="collapse navbar-collapse align-items-center  " id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link   text-white" aria-current="page" href="#shop">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#news-product">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact-us">Contract</a>
+            </li>
+          </ul>
+          <span class="navbar-text ms-md-5">
+           <button class="btn btn-color text-white px-3 py-2">Login</button>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- header content -->
+      <section class="row d-flex align-items-center d-grid g-3  ">
+        <article class="text-white col-lg-7 col-12 ">
+          <p class="px-lg-5">
+            Computer-controlled digital transistorized with electronic advance
+          </p>
+          <h1 class="px-lg-5 mb-4">Honda CBR 300R</h1>
+          <p class="px-lg-5">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+    <!-- Button trigger modal -->
+          <button type="button" class="btn btn-color ps-5 pe-5    ms-md-5" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
+        </article>
+       
+    <!-- Modal -->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div  class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          Honda CBR 300R
+         <span class="ms-2 text-success">$450  </span>       
+        </h5>        
+        <button class="btn btn-primary ms-lg-5">Payment</button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- add content -->
+        <section class="container" id="shoes">
+          <h2>Seller Recommended:</h2>
+          <div class="g-4">
+              <div class="col">
+                  <div class="card border-0 shadow-lg h-100">
+                      <img src="images/bike-1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Regal Raptor Pilder</h5>
+                          <p class="card-text">Over the years, the demand for cruisers have increased significantly. As more and more people are opting for travelling with their motorcycles, cruiser demands are increasing significantly. The Regal Raptor Pilder is more of a sports cruiser.</p>
+                      </div>
+                      <div class="m-3 d-flex justify-content-lg-between">
+                          <button class="btn btn btn-warning">Buy Now</button>
+                          <button class="btn btn btn-warning">Add Card</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card border-0 shadow-lg h-100">
+                      <img src="images/bike-2.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Suzuki Intruder FI ABS</h5>
+                          <p class="card-text">SUZUKI Intruder is a nice offering from the company in the cruiser segment. This bike features a 150 cc segment engine and aggressive approach to its styling. With its attractive styling, it surely grabs the attention of people around.</p>
+                      </div>
+                      <div class="m-3 d-flex justify-content-lg-between">
+                        <button class="btn btn btn-warning">Buy Now</button>
+                        <button class="btn btn btn-warning">Add Card</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card border-0 shadow-lg h-100">
+                      <img src="images/bike-3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Yamaha MT 15</h5>
+                          <p class="card-text">Usually unheard of in this region, the MT series is a very cool one from YAMAHA and globally very renowned for the performance of these bikes. </p>
+                      </div>
+                      <div class="m-3 d-flex justify-content-lg-between">
+                        <button class="btn btn btn-warning">Buy Now</button>
+                        <button class="btn btn btn-warning">Add Card</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Save Change</button>
+        <button type="button" class="btn btn-primary">Continue Shoping</button>
+      </div>
+    </div>
+  </div>
+       </div> 
+    <!-- image section of header -->
+      <section class="mt-5 col-lg-5 col-12">
+          <img class="w-75" src="images/header-bike.png" alt="" />
+       </section>
+      </section>
+    </header>
+    <!-- end header -->
+    <main>
+      <!--feature bike section  -->
+      <section id="shop" class="container">
+        <div class="text-center row row-cols-1 gy-md-2 justify-content-center">
+          <h2 class="px-lg-5  fw-bolder">Fetured Bikes 2021</h2>
+          <p class="text-color">Best bike collection.</p>
+          <hr  class="bg-warning w-25">
+        </div>     
+          
+      <!-- features bike -->
+       <div  class="  row justify-content-center  g-4 my-lg-5 px-md-5 ">
+         <div class="col-12 col-lg-4  rounded-3 justify-item-center">
+         <img class="d-block m-auto p-2 convert-grey-image"
+          width="288"
+          height="343"
+          src="images/feature-bike.jpg"
+          alt=""
+        />
+        </div>
+        <div class="col-12 col-lg-4 rounded-3  ">
+          <img class="d-block m-auto p-2 "
+          width="288"
+          height="343"
+          src="images/feature-bike.jpg"
+          alt=""
+        />
+        </div>
+        <div class="col-12  col-lg-4  rounded-3 convert-grey-image">
+          <img class="d-block m-auto p-2"
+              width="288"
+              height="343"
+              src="images/feature-bike.jpg"
+              alt=""
+            />
+        </div>
+      </div>
+      </section>
+      <!-- ******Happy Clients says section*****  -->       
+        <section class="container my-lg-3 py-4">
+          <div class="text-center d-flex justify-content-center p-lg-5 m-1">
+            <h3>Happy</h3>
+            <h3 class="text-color ms-2"> Clients says</h3>
+          </div>
+          </section>
+          <!--1st card added -->
+          <section class="container">
+         <div class=" row g-4 justify-content-around">
+          <div class="  col-12 col-md-3 col-lg-3 card text-center p-2">
+            <div class="card-header border-bottom-0 bg-white">
+              <img width="149px" height="149px" class="p-3" src="images/user-1.png" alt="">
+            </div>
+            <div class="card-body my-2">
+              <p class="card-title my-2">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <div class="my-3">
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star empty" aria-hidden="true"></i>
+                   
+                </div >
+                <h4 class="text-primary my-3">Regina Miles</h4>
+                <h6>Banker</h6>
+             
+            </div>
+            
+          </div>
+          <!-- 2nd card added -->
+          <div class="col-12 col-md-3 col-lg-3 card text-center p-2 ">
+            <div class="card-header border-bottom-0 bg-white">
+              <img width="149px" height="149px" class="p-3" src="images/user-2.png" alt="">
+            </div>
+            <div class="card-body my-2">
+              <p class="card-title my-2">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <div class="my-3">
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star empty" aria-hidden="true"></i>
+                   
+                </div >
+                <h4 class="text-primary my-3">Regina Miles</h4>
+                <h6>Banker</h6>
+             
+            </div>
+            
+          </div>
+          <!-- 3rd card -->
+          <div class="col-12 col-md-3 col-lg-3 card text-center  p-2">
+            <div class="card-header border-bottom-0 bg-white">
+              <img width="149px" height="149px" class="p-3 rounded-circle" src="images/user-3.jpg" alt="">
+            </div>
+            <div class="card-body my-2">
+              <p class="card-title my-2">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <div class="my-3">
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star filled" aria-hidden="true"></i>
+                  <i class="fas fa-star empty" aria-hidden="true"></i>
+                   
+                </div >
+                <h4 class="text-primary my-3">Regina Miles</h4>
+                <h6>Banker</h6>
+             
+            </div>
+            
+          </div>
+         </div>
+           </section>        
+        </section>
+       <!--carusel bonus content start -->
+      <div id="news-product" class="text-center d-flex justify-content-center p-lg-5 m-3">
+        <h3>Best Selling</h3>
+        <h3 class="text-color ms-2"> Products</h3>
+      </div>
+        <section class="container ">
+          <div id="carouselExampleControls" class="carousel slide accrodian-style" data-bs-ride="carousel">
+              <div class="carousel-inner py-lg-5">
+                  <div class="carousel-item " data-bs-interval="200">
+                      <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center g-4">
+                          <div class="col-lg-6  ">
+                              <h1>Suzuki Intruder FI ABS
+                              </h1>
+                              <p>SUZUKI Intruder is a nice offering from the company in the cruiser segment. This bike features a 150 cc segment engine and aggressive approach to its styling. With its attractive styling, it surely grabs the attention of people around.</p>
+                              <h1>$420</h1>
+                              <button class="btn btn-primary mt-md-3 shadow-lg">Buy Now</button>
+                          </div>
+                          <div class="col-lg-6 ">
+                              <img src="images/bike-1.png" class="d-block w-100" alt="...">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item active" data-bs-interval="200">
+                      <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center g-4">
+                          <div class="col-lg-6">
+                              <h1>Regal Raptor Pilder </h1>
+                              <p>Over the years, the demand for cruisers have increased significantly. As more and more people are opting for travelling with their motorcycles, cruiser demands are increasing significantly. The Regal Raptor Pilder is more of a sports cruiser. </p>
+                              <h1>$420</h1>
+                              <button class="btn btn-primary mt-md-3 shadow-lg">Buy Now</button>
+                          </div>
+                          <div class="col-lg-6 ">
+                              <img src="images/bike-3.png" class="d-block w-100" alt="...">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="200">
+                      <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center g-4">
+                          <div class="col-lg-6 ">
+                              <h1>Yamaha MT 15
+
+                              </h1>
+                              <p> Usually unheard of in this region, the MT series is a very cool one from YAMAHA and globally very renowned for the performance of these bikes. The group of bikes in this name are generally called “Hypernaked” by the YAMAHA stable. </p>
+                              <h1>$600</h1>
+                              <button class="btn btn-primary mt-md-3 shadow-lg">Buy Now</button>
+                          </div>
+                          <div class="col-lg-6">
+                              <img src="images/bike-4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+        </section>
+      <!-- Frequently asked question -->
+      <section class="container my-lg-3 py-lg-3 ">
+        <div class="text-center d-flex justify-content-center p-lg-5 m-3">
+          <h3>Frequently Asked</h3>
+          <h3 class="text-color ms-2"> Questions</h3>
+        </div>
+        </section>
+     <!-- image section -->
+    <section class="container">
+      <section class=" row d-flex align-items-center  ">
+        <section class="col-12 col-lg-5 col-md-6 p-3 ">
+          <img class="px-5 me-3 rounded-3" width="432px" height="423px" src="images/faq.png" alt="">
+        </section>
+        <!-- accrodian -->
+        <section class="col-12 col-lg-7 col-md-6  accrodian-style shadow-lg ">
+         <div class="accordion justify-content-around  " id="accordionExample">
+           <div class="accordion-item gy-3   my-4  rounded-pill  ">
+             <h2 class="accordion-header  " id="headingOne">
+               <button class="accordion-button  rounded-pill  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What is the most powerful Honda?
+               </button>
+             </h2>
+             <div id="collapseOne" class="accordion-collapse collapse show border-0 " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+               
+               <div class="accordion-body  rounded-pill text-center">
+                 <strong> The Honda Civic Type R </strong>  is the fastest and most powerful car the company has ever sold in the US. The Civic Type R debuted in the US market in 2017.
+               </div>
+             </div>
+           </div>
+           <div class="accordion-item gy-3   my-4  rounded-pill  ">
+            <h2 class="accordion-header  " id="headingOne">
+              <button class="accordion-button  rounded-pill  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+               Which Honda Accord is fastest?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show border-0 " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              
+              <div class="accordion-body  rounded-pill text-center">
+                <strong>The 2.0-liter turbo-4</strong> 
+                  is the quickest Accord—our informal stopwatches clock it at about six seconds to 60 mph—and available with either a 10-speed automatic or 6-speed manual transmission.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item gy-3   my-4  rounded-pill  ">
+            <h2 class="accordion-header  " id="headingOne">
+              <button class="accordion-button  rounded-pill  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+               Why is Honda expensive?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show border-0 " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              
+              <div class="accordion-body  rounded-pill text-center">
+                <strong>It simply comes down to not just supply and demand,</strong>  but also the popularity, reliability, and customizability of the older Honda Civics and Accords. As the years go on, it's getting harder and harder to find clean examples like the aforementioned 1996 Honda Civic, so there's a factor of rarity
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item gy-3   my-4  rounded-pill  ">
+            <h2 class="accordion-header  " id="headingOne">
+              <button class="accordion-button  rounded-pill  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+               Which Honda motorcycle is the fastest?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse show border-0 " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              
+              <div class="accordion-body  rounded-pill text-center">
+                <strong>Image result for which honda race fast  in bangladesh</strong> 
+               The following is a list of the 10 fastest Motorcycles in the world for the year 2021. Honda CBR 1100XX Blackbird – top speed: 190 mph...Kawasaki Ninja H2R – top speed: 222 mph...MTT Turbine Superbike Y2K – top speed: 227 mph.
+              </div>
+            </div>
+          </div>
+         </div>
+ 
+        </section>
+      </section>
+    </section> 
+   <!-- subscription start-->
+   <section id="contact-us" style="height: 300px;" id="subscribe" class="container panda-bg-info d-flex justify-content-center align-items-center rounded-3 accrodian-style my-lg-5" >
+    <div>
+        <h1>LET'S STAY IN TOUCH</h1>
+        <p>Get updates on sales, specials and more</p>
+        <input class="form-control" type="text" placeholder="Your Email">
+        <br>
+        <button class="panda-btn-buy-now">SUBMIT</button>
+    </div>
+</section>
+    </main>    
+  <footer class="mt-5 text-center">
+    <p><small>©2025. Bike Commerce. All rights reserved. Mahmud, Bangladesh.</small></p>
+</footer>
+    <!-- js file from brootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

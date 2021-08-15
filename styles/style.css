@@ -1,0 +1,52 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* common style or utilities */
+/*button  */
+
+.btn-color {
+  color: #fff !important;
+  background-color: #e76f51 !important;
+  border-color: #e76f51 !important;
+}
+.text-color {
+  color: #e76f51 !important;
+}
+/* star icon */
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+/* accrodian background  styles */
+.accrodian-style {
+  background-color: #fceae8;
+  border-radius: 7%;
+}
+/* @media (min-width: 992px) .navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+} */
+nav {
+  justify-content: flex-end !important;
+}
+/* navbar toggle color */
+.toggler {
+  color: goldenrod;
+}
+/* grayscale image */
+.convert-grey-image {
+  filter: grayscale(100%);
+}
+/* *************
+Live Preview Project:   
+ 
+https://honda-cbr-bootstrap-assignment-mahmudul165.netlify.app/
+git code link(private repo):  
+
+https://github.com/programming-hero-web-course2/honda-cbr-bootstrap-assignment-mahmudul165
+
+git code link(public repo):
+
+
+******************/
